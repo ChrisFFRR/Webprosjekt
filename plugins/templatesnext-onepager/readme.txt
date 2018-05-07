@@ -4,7 +4,7 @@ Contributors: marsian
 Tags: One Page, Onepage, Landing Page, Parallax, Services, portfolio, blog, team, sortable, about us, contact us, Testimonial, Sections, business, website
 Requires at least: 3.6
 Tested up to: 4.8
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,10 @@ Install the plugin into the `/wp-content/plugins/` folder, and activate it.
 
 
 == Changelog ==
-= 1.0.5 =
+= 1.2.3 =
+Added wishlist and compare for WooCommerce
+
+= 1.0.6 =
 Pie Chart Section Heding Fix.
 
 = 1.0.5 =

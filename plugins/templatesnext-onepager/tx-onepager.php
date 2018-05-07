@@ -3,7 +3,7 @@
 /*
 Plugin Name: TemplatesNext OnePager
 Description: One Page home page with customizer options for TemplatesNext Wordpress Themes
-Version: 1.2.2
+Version: 1.2.3
 Author: TemplatesNext
 Author URI: http://templatesnext.in/
 License: GPLv2 or later
@@ -52,3 +52,18 @@ require_once('inc/txo-shortcodes.php');
 require_once('inc/txo-custom-style.php');
 
 require_once('inc/shape-seperators.php');
+require_once('inc/slider/txo-slider.php');
+
+/* *********************** WishList & Compare ********************/
+
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+	
+	require_once('inc/woo-compare-wishlist/woo-compare-wishlist.php');
+	
+	register_activation_hook( __FILE__, 'tx_compare_wishlist_install' );
+	
+	function tx_compare_wishlist_install() {
+		require_once ('inc/woo-compare-wishlist/includes/install.php');
+		TX_WC_Compare_Wishlist_Install()->init();
+	}
+}

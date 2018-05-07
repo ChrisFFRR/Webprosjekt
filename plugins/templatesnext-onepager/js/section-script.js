@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
 				$('.current-menu-item').removeClass('current-menu-item');
 				$('ul.nav-menu > li > a[href="#'+_this.attr('id')+'"]').parent('li').addClass('current-menu-item');
 			}
-			console.log(_this.attr('id')+" : Arrived Down");
+			//console.log(_this.attr('id')+" : Arrived Down");
 		}
 	},
 	{
@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
 			});
 		});
 		
-		console.log(pie_empty_fill);
+		//console.log(pie_empty_fill);
 		
 	});
 	
@@ -160,7 +160,7 @@ jQuery(document).ready(function($) {
 		var px_z_index = $(this).children('.tx-fw-overlay').data('z-index')+1;
 		var px_overlay = $(this).children('.tx-fw-overlay').data('overlay');		
 
-		console.log("parallax on : ");
+		//console.log("parallax on : ");
 		$(this).children('.tx-fw-overlay').css({"z-index":(px_z_index+1), "position":"relative", "background-color": px_overlay});
 		
 	});

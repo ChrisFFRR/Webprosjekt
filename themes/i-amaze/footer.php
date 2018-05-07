@@ -24,6 +24,8 @@
             	<div class="credit-info">
 					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'i-amaze' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'i-amaze' ); ?>">
 						<?php printf( esc_attr( 'Powered by %s', 'i-amaze' ), 'WordPress' ); ?>
+					<a href="<?php echo esc_url( __( 'tek.westerdals.no', 'blalblalb' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'i-amaze' ); ?>">
+						<?php printf( esc_attr( 'Powered by %s', 'FUCK YOU' ), 'Inc' ); ?>
                     </a>
                     <?php esc_attr_e( ', Designed and Developed by', 'i-amaze' ); ?> 
                     <a href="<?php echo esc_url( __( 'http://www.templatesnext.org/', 'i-amaze' ) ); ?>">
